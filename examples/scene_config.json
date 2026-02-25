@@ -1,0 +1,26 @@
+{
+    "name": "example_scene",
+    "background": "backgrounds/park.png",
+    "audio": "auto",
+    "layers": [
+        {
+            "name": "character_a",
+            "video": "characters/char_a_idle.mp4",
+            "position": "left",
+            "scale": 0.6,
+            "offset_y": 10,
+            "chromakey": true,
+            "similarity": 0.15,
+            "blend": 0.08,
+            "audio": false
+        },
+        {
+            "name": "character_b",
+            "video": "characters/char_b_talking.mp4",
+            "position": "right",
+            "scale": 0.7,
+            "chromakey": true,
+            "audio": true
+        }
+    ]
+}

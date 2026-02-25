@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.u2net/
+.pytest_cache/
+
+# Media files (don't commit test assets)
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+
+# Keep example JSON
+!examples/scene_config.json
+
+.env
+.venv/

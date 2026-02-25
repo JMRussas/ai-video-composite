@@ -1,0 +1,14 @@
+# Requires Python >= 3.9
+# Prefer: pip install -e .  (uses pyproject.toml)
+
+# Core dependencies (required)
+numpy>=1.20
+Pillow>=9.0
+rembg>=2.0          # AI background removal (use rembg[gpu] for CUDA acceleration)
+
+# Optional dependencies
+# scipy>=1.7         # Uncomment for better alpha cleanup (small island removal)
+# imageio-ffmpeg     # Uncomment if ffmpeg is not on your system PATH
+
+# Development
+# pytest>=7.0        # Uncomment for running tests
